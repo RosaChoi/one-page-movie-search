@@ -1,4 +1,32 @@
 .list-unstyled {
-  margin: 2em;
+  margin: 2em 0;
   line-height: 1.5;
+  font-size: 16px;
+}
+
+a {
+  color: #696969;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #31b0d5;
+}
+
+.jumbotron {
+  margin-top: 6em;
+}
+
+.jumbotron p {
+  font-size: 15px;
+}
+
+#detailed-info {
+  overflow: hidden;
+  font-size: 15px;
+}
+
+
+#movie-details {
+  float: right;
 }
