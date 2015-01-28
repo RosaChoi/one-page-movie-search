@@ -51,6 +51,8 @@ function listMovieTitles(response) {
 }
 
 function detailedMovieInfo(response){
+  $('#movie-img').empty();
+  $('#movie-details').empty();
   $('#movie-list').hide();
   $('#detailed-info').fadeIn();
 
